@@ -52,6 +52,16 @@ public class Main {
 				
 			}
 		
+			case 5 -> {
+				System.out.println("Introduzca el primer número:");
+				num1 = Double.parseDouble(sc.nextLine());
+				System.out.println("Introduzca el segundo número");
+				num2 = Double.parseDouble(sc.nextLine());
+				System.out.println("Resto: " +(num1%num2));
+				
+			}
+		
+		
 
 			}
 
