@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		double num1, num2, result,suma;
+		double num1, num2, result, suma;
 		int menu = 0;
 		Scanner sc = new Scanner(System.in);
 
@@ -18,15 +18,16 @@ public class Main {
 			menu = Integer.parseInt(sc.nextLine());
 
 			switch (menu) {
-			
+
 			case 1 -> {
 				System.out.println("Introduzca el primer número:");
-				num1=Double.parseDouble(sc.nextLine());
+				num1 = Double.parseDouble(sc.nextLine());
 				System.out.println("Introduzca el segundo número");
-				num2=Double.parseDouble(sc.nextLine());
-				System.out.println("Resultado: "+num1+num2);
-				
-			}
+				num2 = Double.parseDouble(sc.nextLine());
+				System.out.println("Resultado: " +(num1+num2));
+				}
+
+		
 
 			}
 
