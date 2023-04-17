@@ -34,6 +34,14 @@ public class Main {
 				num2 = Double.parseDouble(sc.nextLine());
 				System.out.println("Resultado: " +(num1-num2));
 				}
+			
+			case 3 -> {
+				System.out.println("Introduzca el primer número:");
+				num1 = Double.parseDouble(sc.nextLine());
+				System.out.println("Introduzca el segundo número");
+				num2 = Double.parseDouble(sc.nextLine());
+				System.out.println("Resultado: " +(num1*num2));
+				}
 
 		
 
